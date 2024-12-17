@@ -8,4 +8,6 @@ include_directories("ejercicio 1")
 add_executable(Flujo_C__Roberto_Cardenas
     "ejercicio 1/Matematicas.cpp"
     "ejercicio 1/Matematicas.h"
-    main.cpp)
+    main.cpp
+        "ejercicio 2/Circulo.cpp"
+        "ejercicio 2/Triangulo.cpp")
