@@ -5,6 +5,7 @@
 #include "ejercicio 1/Matematicas.h"
 #include "ejercicio 2/Geometria.h"
 #include "ejercicio 3/Geometria2.h"
+#include "ejercicio 4/Ciencia.h"
 
 int main() {
     // Ejercicio 1: Utilización completa de un espacio de nombres
@@ -28,6 +29,14 @@ int main() {
     Geometria::Circulo circulo2(10.0);
     std::cout << "Área del círculo con radio 10.0 = " << circulo2.calcularArea() << std::endl;
     std::cout << "Perímetro del círculo con radio 10.0 = " << circulo2.calcularPerimetro() << "\n\n";
+
+    // Ejercicio 4
+    std::cout << "\n---- Ejercicio 4 ----" << std::endl;
+    double masa;
+    std::cout << "Ingresa la masa (kg): ";
+    std::cin >> masa;
+    double energia = Ciencia::Física::calcularEnergia(masa);
+    std::cout << "Energía (E=mc^2): " << energia << " julios" << std::endl;
 
     return 0;
 }
