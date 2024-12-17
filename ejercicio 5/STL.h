@@ -5,9 +5,10 @@
 #ifndef STL_H
 #define STL_H
 
+// Definición del espacio de nombres STL
 namespace STL {
+    // Declaración de la función ejecutarSTL que ejecutará los ejemplos de STL
     void ejecutarSTL();
 }
-
-#endif
+#endif  // STL_H
 

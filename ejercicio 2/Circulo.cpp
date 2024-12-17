@@ -3,11 +3,16 @@
 //
 
 #include "Geometria.h"
-#include <cmath> // Para usar M_PI
+#include <cmath> // Incluimos cmath para usar la constante M_PI
 
+// Definición del espacio de nombres "Geometria"
 namespace Geometria {
+
+    // Función que calcula el área de un círculo
+    // Fórmula: área = π * radio^2
     double calcularAreaCirculo(double radio) {
         return M_PI * radio * radio;
     }
 }
+
 

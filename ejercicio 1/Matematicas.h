@@ -5,10 +5,16 @@
 #ifndef MATEMATICAS_H
 #define MATEMATICAS_H
 
+// Declaración del espacio de nombres "Matematicas"
 namespace Matematicas {
-    int suma(int a, int b);
-    int resta(int a, int b);
-}
 
-#endif
+    // Prototipo de la función que realiza la suma de dos números enteros
+    int suma(int a, int b);
+
+    // Prototipo de la función que realiza la resta de dos números enteros
+    int resta(int a, int b);
+
+}
+#endif // MATEMATICAS_H
+
 
