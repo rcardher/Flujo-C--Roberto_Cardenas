@@ -12,4 +12,6 @@ add_executable(Flujo_C__Roberto_Cardenas
         "ejercicio 2/Circulo.cpp"
         "ejercicio 2/Triangulo.cpp"
         "ejercicio 3/Geometria2.cpp"
-        "ejercicio 4/Ciencia.cpp")
+        "ejercicio 4/Ciencia.cpp"
+        "ejercicio 5/STL.cpp"
+        "ejercicio 5/STL.h")

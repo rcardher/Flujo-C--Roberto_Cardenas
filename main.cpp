@@ -6,6 +6,7 @@
 #include "ejercicio 2/Geometria.h"
 #include "ejercicio 3/Geometria2.h"
 #include "ejercicio 4/Ciencia.h"
+#include "ejercicio 5/STL.h"
 
 int main() {
     // Ejercicio 1: Utilización completa de un espacio de nombres
@@ -37,6 +38,9 @@ int main() {
     std::cin >> masa;
     double energia = Ciencia::Física::calcularEnergia(masa);
     std::cout << "Energía (E=mc^2): " << energia << " julios" << std::endl;
+
+    std::cout << "\n---- Ejercicio 5 ----\n";
+    STL::ejecutarSTL();
 
     return 0;
 }
